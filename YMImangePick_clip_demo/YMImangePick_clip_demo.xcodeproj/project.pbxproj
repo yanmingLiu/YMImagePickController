@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4189D508FFB2D758AE9A2741 /* libPods-YMImangePick_clip_demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EA44CD503965237528C668 /* libPods-YMImangePick_clip_demoTests.a */; };
+		46253E4BD2E4EEB67DFB8AC1 /* libPods-YMImangePick_clip_demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADE4A12E221E79DE26B1C45 /* libPods-YMImangePick_clip_demo.a */; };
+		7AD69F4E2E09C4F19BE5523D /* libPods-YMImangePick_clip_demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E51ABF8AFB0C12414C5146 /* libPods-YMImangePick_clip_demoUITests.a */; };
+		C20563871ED69C9D00D56B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20563861ED69C9D00D56B61 /* main.m */; };
+		C205638A1ED69C9D00D56B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C20563891ED69C9D00D56B61 /* AppDelegate.m */; };
+		C205638D1ED69C9D00D56B61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205638C1ED69C9D00D56B61 /* ViewController.m */; };
+		C20563901ED69C9D00D56B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C205638E1ED69C9D00D56B61 /* Main.storyboard */; };
+		C20563921ED69C9D00D56B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20563911ED69C9D00D56B61 /* Assets.xcassets */; };
+		C20563951ED69C9D00D56B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20563931ED69C9D00D56B61 /* LaunchScreen.storyboard */; };
+		C20563A01ED69C9D00D56B61 /* YMImangePick_clip_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C205639F1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.m */; };
+		C20563AB1ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20563AA1ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.m */; };
+		C25E6F011ED7070000CA0D6A /* TZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25E6F001ED7070000CA0D6A /* TZCollectionViewController.m */; };
+		C25E6F041ED70FFA00CA0D6A /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25E6F031ED70FFA00CA0D6A /* RSViewController.m */; };
+		C25E6F061ED7187D00CA0D6A /* Untitled2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C25E6F051ED7187D00CA0D6A /* Untitled2.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C205639C1ED69C9D00D56B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C205637A1ED69C9D00D56B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20563811ED69C9D00D56B61;
+			remoteInfo = YMImangePick_clip_demo;
+		};
+		C20563A71ED69C9D00D56B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C205637A1ED69C9D00D56B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20563811ED69C9D00D56B61;
+			remoteInfo = YMImangePick_clip_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51B08B8B2C94213EE3D5ADA4 /* Pods-YMImangePick_clip_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demoUITests/Pods-YMImangePick_clip_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B298470CFA9489FCE6E777F /* Pods-YMImangePick_clip_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demoUITests/Pods-YMImangePick_clip_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A51A7D1BDBFFD5F96A96C3A /* Pods-YMImangePick_clip_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demoTests/Pods-YMImangePick_clip_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ADE4A12E221E79DE26B1C45 /* libPods-YMImangePick_clip_demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMImangePick_clip_demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E51ABF8AFB0C12414C5146 /* libPods-YMImangePick_clip_demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMImangePick_clip_demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7AA1EB9E236528C3691DC5 /* Pods-YMImangePick_clip_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demo/Pods-YMImangePick_clip_demo.release.xcconfig"; sourceTree = "<group>"; };
+		C20563821ED69C9D00D56B61 /* YMImangePick_clip_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMImangePick_clip_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20563861ED69C9D00D56B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C20563881ED69C9D00D56B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C20563891ED69C9D00D56B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C205638B1ED69C9D00D56B61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C205638C1ED69C9D00D56B61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C205638F1ED69C9D00D56B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C20563911ED69C9D00D56B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20563941ED69C9D00D56B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C20563961ED69C9D00D56B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C205639B1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMImangePick_clip_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C205639F1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMImangePick_clip_demoTests.m; sourceTree = "<group>"; };
+		C20563A11ED69C9D00D56B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20563A61ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMImangePick_clip_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20563AA1ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMImangePick_clip_demoUITests.m; sourceTree = "<group>"; };
+		C20563AC1ED69C9D00D56B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25E6EFF1ED7070000CA0D6A /* TZCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZCollectionViewController.h; sourceTree = "<group>"; };
+		C25E6F001ED7070000CA0D6A /* TZCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZCollectionViewController.m; sourceTree = "<group>"; };
+		C25E6F021ED70FFA00CA0D6A /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		C25E6F031ED70FFA00CA0D6A /* RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		C25E6F051ED7187D00CA0D6A /* Untitled2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled2.gif; sourceTree = "<group>"; };
+		C3EA44CD503965237528C668 /* libPods-YMImangePick_clip_demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMImangePick_clip_demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46E5D9F6AC0D50254644552 /* Pods-YMImangePick_clip_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demoTests/Pods-YMImangePick_clip_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC0DAA73056CF11395EE892 /* Pods-YMImangePick_clip_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImangePick_clip_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMImangePick_clip_demo/Pods-YMImangePick_clip_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C205637F1ED69C9D00D56B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46253E4BD2E4EEB67DFB8AC1 /* libPods-YMImangePick_clip_demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563981ED69C9D00D56B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4189D508FFB2D758AE9A2741 /* libPods-YMImangePick_clip_demoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563A31ED69C9D00D56B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD69F4E2E09C4F19BE5523D /* libPods-YMImangePick_clip_demoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0347A2716260579C8B4981EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE4A12E221E79DE26B1C45 /* libPods-YMImangePick_clip_demo.a */,
+				C3EA44CD503965237528C668 /* libPods-YMImangePick_clip_demoTests.a */,
+				81E51ABF8AFB0C12414C5146 /* libPods-YMImangePick_clip_demoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20563791ED69C9D00D56B61 = {
+			isa = PBXGroup;
+			children = (
+				C20563841ED69C9D00D56B61 /* YMImangePick_clip_demo */,
+				C205639E1ED69C9D00D56B61 /* YMImangePick_clip_demoTests */,
+				C20563A91ED69C9D00D56B61 /* YMImangePick_clip_demoUITests */,
+				C20563831ED69C9D00D56B61 /* Products */,
+				CB83125D035CD87EBA1CC2A5 /* Pods */,
+				0347A2716260579C8B4981EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C20563831ED69C9D00D56B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20563821ED69C9D00D56B61 /* YMImangePick_clip_demo.app */,
+				C205639B1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.xctest */,
+				C20563A61ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20563841ED69C9D00D56B61 /* YMImangePick_clip_demo */ = {
+			isa = PBXGroup;
+			children = (
+				C25E6F051ED7187D00CA0D6A /* Untitled2.gif */,
+				C20563881ED69C9D00D56B61 /* AppDelegate.h */,
+				C20563891ED69C9D00D56B61 /* AppDelegate.m */,
+				C205638B1ED69C9D00D56B61 /* ViewController.h */,
+				C205638C1ED69C9D00D56B61 /* ViewController.m */,
+				C25E6EFF1ED7070000CA0D6A /* TZCollectionViewController.h */,
+				C25E6F001ED7070000CA0D6A /* TZCollectionViewController.m */,
+				C25E6F021ED70FFA00CA0D6A /* RSViewController.h */,
+				C25E6F031ED70FFA00CA0D6A /* RSViewController.m */,
+				C205638E1ED69C9D00D56B61 /* Main.storyboard */,
+				C20563911ED69C9D00D56B61 /* Assets.xcassets */,
+				C20563931ED69C9D00D56B61 /* LaunchScreen.storyboard */,
+				C20563961ED69C9D00D56B61 /* Info.plist */,
+				C20563851ED69C9D00D56B61 /* Supporting Files */,
+			);
+			path = YMImangePick_clip_demo;
+			sourceTree = "<group>";
+		};
+		C20563851ED69C9D00D56B61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C20563861ED69C9D00D56B61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C205639E1ED69C9D00D56B61 /* YMImangePick_clip_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C205639F1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.m */,
+				C20563A11ED69C9D00D56B61 /* Info.plist */,
+			);
+			path = YMImangePick_clip_demoTests;
+			sourceTree = "<group>";
+		};
+		C20563A91ED69C9D00D56B61 /* YMImangePick_clip_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C20563AA1ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.m */,
+				C20563AC1ED69C9D00D56B61 /* Info.plist */,
+			);
+			path = YMImangePick_clip_demoUITests;
+			sourceTree = "<group>";
+		};
+		CB83125D035CD87EBA1CC2A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0DAA73056CF11395EE892 /* Pods-YMImangePick_clip_demo.debug.xcconfig */,
+				AC7AA1EB9E236528C3691DC5 /* Pods-YMImangePick_clip_demo.release.xcconfig */,
+				E46E5D9F6AC0D50254644552 /* Pods-YMImangePick_clip_demoTests.debug.xcconfig */,
+				7A51A7D1BDBFFD5F96A96C3A /* Pods-YMImangePick_clip_demoTests.release.xcconfig */,
+				6B298470CFA9489FCE6E777F /* Pods-YMImangePick_clip_demoUITests.debug.xcconfig */,
+				51B08B8B2C94213EE3D5ADA4 /* Pods-YMImangePick_clip_demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20563811ED69C9D00D56B61 /* YMImangePick_clip_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20563AF1ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demo" */;
+			buildPhases = (
+				7B1C73E75CFABFE2C66DB3F6 /* [CP] Check Pods Manifest.lock */,
+				C205637E1ED69C9D00D56B61 /* Sources */,
+				C205637F1ED69C9D00D56B61 /* Frameworks */,
+				C20563801ED69C9D00D56B61 /* Resources */,
+				E576D9FFAEB68C49D4C82DAC /* [CP] Embed Pods Frameworks */,
+				384E4E0E0C172B1F3080C1BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMImangePick_clip_demo;
+			productName = YMImangePick_clip_demo;
+			productReference = C20563821ED69C9D00D56B61 /* YMImangePick_clip_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C205639A1ED69C9D00D56B61 /* YMImangePick_clip_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20563B21ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demoTests" */;
+			buildPhases = (
+				68F1DFFAA560EC38B6086C9A /* [CP] Check Pods Manifest.lock */,
+				C20563971ED69C9D00D56B61 /* Sources */,
+				C20563981ED69C9D00D56B61 /* Frameworks */,
+				C20563991ED69C9D00D56B61 /* Resources */,
+				7D65FC7E76084A5FCB406DB5 /* [CP] Embed Pods Frameworks */,
+				BC5137755BAAA06B7AF0AEF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C205639D1ED69C9D00D56B61 /* PBXTargetDependency */,
+			);
+			name = YMImangePick_clip_demoTests;
+			productName = YMImangePick_clip_demoTests;
+			productReference = C205639B1ED69C9D00D56B61 /* YMImangePick_clip_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C20563A51ED69C9D00D56B61 /* YMImangePick_clip_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20563B51ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demoUITests" */;
+			buildPhases = (
+				5A6A18A92A246975AAC2F6DE /* [CP] Check Pods Manifest.lock */,
+				C20563A21ED69C9D00D56B61 /* Sources */,
+				C20563A31ED69C9D00D56B61 /* Frameworks */,
+				C20563A41ED69C9D00D56B61 /* Resources */,
+				5800CB2D419D4C6FEF5BD4C2 /* [CP] Embed Pods Frameworks */,
+				8A9D751CEBB9AE224AF98642 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20563A81ED69C9D00D56B61 /* PBXTargetDependency */,
+			);
+			name = YMImangePick_clip_demoUITests;
+			productName = YMImangePick_clip_demoUITests;
+			productReference = C20563A61ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C205637A1ED69C9D00D56B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘彦铭";
+				TargetAttributes = {
+					C20563811ED69C9D00D56B61 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C205639A1ED69C9D00D56B61 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C20563811ED69C9D00D56B61;
+					};
+					C20563A51ED69C9D00D56B61 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C20563811ED69C9D00D56B61;
+					};
+				};
+			};
+			buildConfigurationList = C205637D1ED69C9D00D56B61 /* Build configuration list for PBXProject "YMImangePick_clip_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				da,
+				de,
+				es,
+				fr,
+				id,
+				it,
+				ja,
+				ko,
+				nl,
+				pl,
+				pt,
+				ru,
+				tr,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = C20563791ED69C9D00D56B61;
+			productRefGroup = C20563831ED69C9D00D56B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20563811ED69C9D00D56B61 /* YMImangePick_clip_demo */,
+				C205639A1ED69C9D00D56B61 /* YMImangePick_clip_demoTests */,
+				C20563A51ED69C9D00D56B61 /* YMImangePick_clip_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20563801ED69C9D00D56B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25E6F061ED7187D00CA0D6A /* Untitled2.gif in Resources */,
+				C20563951ED69C9D00D56B61 /* LaunchScreen.storyboard in Resources */,
+				C20563921ED69C9D00D56B61 /* Assets.xcassets in Resources */,
+				C20563901ED69C9D00D56B61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563991ED69C9D00D56B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563A41ED69C9D00D56B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		384E4E0E0C172B1F3080C1BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demo/Pods-YMImangePick_clip_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5800CB2D419D4C6FEF5BD4C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demoUITests/Pods-YMImangePick_clip_demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6A18A92A246975AAC2F6DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68F1DFFAA560EC38B6086C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1C73E75CFABFE2C66DB3F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D65FC7E76084A5FCB406DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demoTests/Pods-YMImangePick_clip_demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9D751CEBB9AE224AF98642 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demoUITests/Pods-YMImangePick_clip_demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5137755BAAA06B7AF0AEF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demoTests/Pods-YMImangePick_clip_demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E576D9FFAEB68C49D4C82DAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImangePick_clip_demo/Pods-YMImangePick_clip_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C205637E1ED69C9D00D56B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25E6F041ED70FFA00CA0D6A /* RSViewController.m in Sources */,
+				C25E6F011ED7070000CA0D6A /* TZCollectionViewController.m in Sources */,
+				C205638D1ED69C9D00D56B61 /* ViewController.m in Sources */,
+				C205638A1ED69C9D00D56B61 /* AppDelegate.m in Sources */,
+				C20563871ED69C9D00D56B61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563971ED69C9D00D56B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20563A01ED69C9D00D56B61 /* YMImangePick_clip_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20563A21ED69C9D00D56B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20563AB1ED69C9D00D56B61 /* YMImangePick_clip_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C205639D1ED69C9D00D56B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20563811ED69C9D00D56B61 /* YMImangePick_clip_demo */;
+			targetProxy = C205639C1ED69C9D00D56B61 /* PBXContainerItemProxy */;
+		};
+		C20563A81ED69C9D00D56B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20563811ED69C9D00D56B61 /* YMImangePick_clip_demo */;
+			targetProxy = C20563A71ED69C9D00D56B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C205638E1ED69C9D00D56B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C205638F1ED69C9D00D56B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C20563931ED69C9D00D56B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20563941ED69C9D00D56B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C20563AD1ED69C9D00D56B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C20563AE1ED69C9D00D56B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20563B01ED69C9D00D56B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC0DAA73056CF11395EE892 /* Pods-YMImangePick_clip_demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMImangePick_clip_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"RSKImageCropper\"",
+					"-l\"SDWebImage\"",
+					"-l\"TOCropViewController\"",
+					"-l\"TZImagePickerController\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Photos\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C20563B11ED69C9D00D56B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7AA1EB9E236528C3691DC5 /* Pods-YMImangePick_clip_demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMImangePick_clip_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"RSKImageCropper\"",
+					"-l\"SDWebImage\"",
+					"-l\"TOCropViewController\"",
+					"-l\"TZImagePickerController\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Photos\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C20563B31ED69C9D00D56B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46E5D9F6AC0D50254644552 /* Pods-YMImangePick_clip_demoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMImangePick_clip_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMImangePick_clip_demo.app/YMImangePick_clip_demo";
+			};
+			name = Debug;
+		};
+		C20563B41ED69C9D00D56B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A51A7D1BDBFFD5F96A96C3A /* Pods-YMImangePick_clip_demoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMImangePick_clip_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMImangePick_clip_demo.app/YMImangePick_clip_demo";
+			};
+			name = Release;
+		};
+		C20563B61ED69C9D00D56B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B298470CFA9489FCE6E777F /* Pods-YMImangePick_clip_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YMImangePick_clip_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMImangePick_clip_demo;
+			};
+			name = Debug;
+		};
+		C20563B71ED69C9D00D56B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B08B8B2C94213EE3D5ADA4 /* Pods-YMImangePick_clip_demoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YMImangePick_clip_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ym.com.YMImangePick-clip-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMImangePick_clip_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C205637D1ED69C9D00D56B61 /* Build configuration list for PBXProject "YMImangePick_clip_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20563AD1ED69C9D00D56B61 /* Debug */,
+				C20563AE1ED69C9D00D56B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20563AF1ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20563B01ED69C9D00D56B61 /* Debug */,
+				C20563B11ED69C9D00D56B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20563B21ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20563B31ED69C9D00D56B61 /* Debug */,
+				C20563B41ED69C9D00D56B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20563B51ED69C9D00D56B61 /* Build configuration list for PBXNativeTarget "YMImangePick_clip_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20563B61ED69C9D00D56B61 /* Debug */,
+				C20563B71ED69C9D00D56B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C205637A1ED69C9D00D56B61 /* Project object */;
+}
