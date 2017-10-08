@@ -15,6 +15,10 @@
 
 @property (nonatomic, strong) NSMutableArray *dataArr;
 
+@property (nonatomic, strong) NSMutableArray *selectedAssets;
+
+@property (nonatomic, strong) TZImagePickerController *imgPick;
+
 @end
 
 @implementation TZCollectionViewController
@@ -69,11 +73,11 @@ static NSString * const reuseIdentifier = @"Cell";
     imgPick.allowCrop = YES;
     
     // 正方形
-//    imgPick.cropRect = CGRectMake((self.view.frame.size.width-300)/2, (self.view.frame.size.height-300)/2, 300, 300);
+    imgPick.cropRect = CGRectMake(20, self.view.bounds.size.height/2-(self.view.bounds.size.width-40)/2, self.view.bounds.size.width-40, self.view.bounds.size.width-40);
     
     // 圆形
-    imgPick.needCircleCrop = YES;
-    imgPick.circleCropRadius = 150;
+//    imgPick.needCircleCrop = YES;
+//    imgPick.circleCropRadius = 150;
     
 
     [imgPick setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos,NSArray *assets,BOOL isSelectOriginalPhoto){
@@ -90,20 +94,27 @@ static NSString * const reuseIdentifier = @"Cell";
  1.多张
  */
 - (void)chooseMoreImage {
-    TZImagePickerController *imgPick = [[TZImagePickerController alloc] initWithMaxImagesCount:9 delegate:self];
+    self.imgPick = [[TZImagePickerController alloc] initWithMaxImagesCount:9 delegate:self];
     
-    imgPick.sortAscendingByModificationDate = NO;
+    _imgPick.sortAscendingByModificationDate = NO;
+    
+    _imgPick.selectedAssets = self.selectedAssets;
     /**
      1.使用block回调
      */
-    [imgPick setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos,NSArray *assets,BOOL isSelectOriginalPhoto){
+    [_imgPick setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos,NSArray *assets,BOOL isSelectOriginalPhoto){
         NSLog(@"%@--%@---%d", photos, assets, isSelectOriginalPhoto);
 
+        [self.dataArr removeAllObjects];
+        
         [self.dataArr addObjectsFromArray:photos];
 
         [self.collectionView reloadData];
+        
+        // 记录选中过的
+        self.selectedAssets = [NSMutableArray arrayWithArray:assets];
     }];
-    [self presentViewController:imgPick animated:YES completion:nil];
+    [self presentViewController:_imgPick animated:YES completion:nil];
 }
 
 #pragma mark - TZImagePickerControllerDelegate
@@ -178,34 +189,7 @@ static NSString * const reuseIdentifier = @"Cell";
     [self initMWPhotoBrowserWithIndexPath:indexPath];
 }
 
-/*
-// Uncomment this method to specify if the specified item should be highlighted during tracking
-- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
-	return YES;
-}
-*/
 
-/*
-// Uncomment this method to specify if the specified item should be selected
-- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    return YES;
-}
-*/
-
-/*
-// Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-- (BOOL)collectionView:(UICollectionView *)collectionView shouldShowMenuForItemAtIndexPath:(NSIndexPath *)indexPath {
-	return NO;
-}
-
-- (BOOL)collectionView:(UICollectionView *)collectionView canPerformAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
-	return NO;
-}
-
-- (void)collectionView:(UICollectionView *)collectionView performAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
-	
-}
-*/
 
 #pragma mark - MWPhotoBrowserDelegate
 
@@ -216,8 +200,8 @@ static NSString * const reuseIdentifier = @"Cell";
     browser.displayActionButton = NO;//分享按钮,默认是
     browser.displayNavArrows = NO;//左右分页切换,默认否<屏幕下方的左右角标>
     browser.displaySelectionButtons = NO;//是否显示选择按钮在图片上,默认否
-    browser.alwaysShowControls = NO;//控制条件控件 是否显示,默认否
-    browser.zoomPhotosToFill = NO;//是否全屏,默认是
+    browser.alwaysShowControls = YES;//控制条件控件 是否显示,默认否
+    browser.zoomPhotosToFill = YES;//是否全屏,默认是
     browser.enableGrid = NO;//是否允许用网格查看所有图片,默认是
      
     browser.enableSwipeToDismiss = NO;
